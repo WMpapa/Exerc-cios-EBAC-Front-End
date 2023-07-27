@@ -6,11 +6,11 @@ h2{
 }
 
 #Tech h2{
-    color: aqua;
+    color: rgb(255, 0, 13);
 }
 
 .creation-date {
-    color: blueviolet;
+    color: rgb(211, 208, 221);
 }
 
 * {
