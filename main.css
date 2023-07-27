@@ -1,3 +1,18 @@
 h1{
     color: green;
 }
+h2{
+    color: brown;
+}
+
+#Tech h2{
+    color: aqua;
+}
+
+.creation-date {
+    color: blueviolet;
+}
+
+* {
+    color: black; 
+}
