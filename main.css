@@ -4,6 +4,23 @@
     margin: 2px;
     padding: 0;
 }
+
+body > header {
+    background-color: rgb(51, 50, 49);
+    padding: 16px 0;
+    color: #fff;
+}
+
+header .containers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li a {
+    color: #fff;
+}
+
 header li {
     display: inline;
 }
@@ -25,4 +42,25 @@ header li {
 
 .articles article {
     width: 45%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
 }
