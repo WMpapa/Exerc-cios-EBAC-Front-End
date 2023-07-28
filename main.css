@@ -1,3 +1,10 @@
+* {
+    color: black; 
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 0;
+}
+
 h1{
     color: green;
 }
@@ -13,6 +20,3 @@ h2{
     color: rgb(211, 208, 221);
 }
 
-* {
-    color: black; 
-}
