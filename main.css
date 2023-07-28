@@ -4,19 +4,25 @@
     margin: 2px;
     padding: 0;
 }
-
-h1{
-    color: green;
-}
-h2{
-    color: brown;
+header li {
+    display: inline;
 }
 
-#Tech h2{
-    color: rgb(255, 0, 13);
+.containers {
+    width: 1366px;
+    margin: 0 auto;
 }
 
-.creation-date {
-    color: rgb(211, 208, 221);
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
+.articles article img {
+    height: 320px;
+}
+
+.articles article {
+    width: 45%;
+}
