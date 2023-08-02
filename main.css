@@ -5,8 +5,11 @@
 }
 
 header,
-section h2 {
+section h2,
+section h3,
+form button {
     font-family: 'Bungee', cursive;
+    font-weight: normal;
 }
 
 body {
@@ -19,10 +22,6 @@ header {
     color: rgb(250, 249, 249);
 }
 
-header h1,
-section h2 {
-    font-weight: normal;
-}
 
 header nav li {
     display: inline;
@@ -114,12 +113,22 @@ form button {
     padding: 8px;
 }
 
-.logoyoutube {
-    height: 500px;
-}
 
 form textarea {
     resize: none;
 }
 
+section h3 {
+    margin-bottom: 23px;
+}
+
+form button {
+    background-color: rgb(27, 4, 131);
+    color: rgb(247, 247, 247);
+    border: none;
+}
+
+form button:hover {
+    background-color:rgb(27, 4, 131);
+}
 
