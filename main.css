@@ -87,12 +87,22 @@ section p {
     height: 36px;
 }
 
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
 #contact .container {
     display: block;
 }
 
 .contact-methods {
     display: flex;
+    justify-content: space-between;
 }
 
 form input,
@@ -103,3 +113,13 @@ form button {
     margin-bottom: 8px;
     padding: 8px;
 }
+
+.logoyoutube {
+    height: 500px;
+}
+
+form textarea {
+    resize: none;
+}
+
+
