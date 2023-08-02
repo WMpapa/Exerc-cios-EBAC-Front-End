@@ -82,3 +82,7 @@ section p {
     margin-right: 32px;
     height: 420px;
 }
+
+.social-links img {
+    height: 32px;
+}
