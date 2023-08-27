@@ -7,7 +7,7 @@ function validaValor(valorMensalidade) {
 
 form.addEventListener('submit', function(e) {
     let formEValido = false;
-    e.preventDefault()
+    e.preventDefault();
 
     const valorMensalidade = document.getElementById('valor-mensalidade');
     const valorDeposito = document.getElementById('valor-depositado');
