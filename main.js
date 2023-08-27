@@ -11,11 +11,14 @@ form.addEventListener('submit', function(e) {
 
     const valorMensalidade = document.getElementById('valor-mensalidade');
     const valorDeposito = document.getElementById('valor-depositado');
-    const mensagemSucesso = `Montante de ${valorDeposito.value} depositado!`
+    const mensagemSucesso = `Montante de ${valorDeposito.value} depositado!`;
 
     formEValido = validaValor(valorDeposito.value)
     if (formEValido) {
         alert(mensagemSucesso);
+
+        valorMensalidade.value = '';
+        valorDeposito.value = '';
     } else {
         alert("Valor correto 300!");
     }
