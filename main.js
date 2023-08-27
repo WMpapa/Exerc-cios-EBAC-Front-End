@@ -7,6 +7,11 @@ function validaValor(valorMensalidade) {
 
 form.addEventListener('submit', function(e) {
     e.preventDefault()
+
+    const valorMensalidade = document.getElementById('valor-mensalidade');
+    if (!validaValor(valorMensalidade.value)) {
+        alert("Valor correto 300.00")
+    }
 })
 
 console.log(form);
