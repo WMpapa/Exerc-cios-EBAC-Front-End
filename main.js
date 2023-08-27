@@ -1,8 +1,8 @@
 const form = document.getElementById('form-deposito');
 
 function validaValor(valorMensalidade) {
-    const valorComoArray = valorMensalidade == 300.00;
-    return valorComoArray == 300.00;
+    const valorComoArray = valorMensalidade == 300;
+    return valorComoArray == 300;
 }
 
 form.addEventListener('submit', function(e) {
@@ -10,7 +10,9 @@ form.addEventListener('submit', function(e) {
 
     const valorMensalidade = document.getElementById('valor-mensalidade');
     if (!validaValor(valorMensalidade.value)) {
-        alert("Valor correto 300.00")
+        alert("Valor correto 300");
+    } else {
+        alert("Tudo certo!");
     }
 })
 
